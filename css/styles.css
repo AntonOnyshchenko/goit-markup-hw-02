@@ -1,0 +1,23 @@
+/* General style */
+body{
+    font-size:1rem;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color:#2E2F42;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+li{
+    list-style-type: none;
+}
+footer{
+    background-color: #2E2F42;
+}
+
+
+/* Footer section */
+.footer-text{
+    color:#F4F4FD;
+}
