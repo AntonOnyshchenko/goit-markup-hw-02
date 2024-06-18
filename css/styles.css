@@ -68,6 +68,7 @@ footer{
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 .hero-section-button{
     font-family:"Roboto",sans-serif;
@@ -82,10 +83,18 @@ footer{
 .site-menu-item:hover,.site-menu-item:active,.site-menu-item:focus,.address-list-item:hover,.address-list-item:focus,.hero-section-button:hover,.hero-section-button:active{
     color: #404BBF;
 }
+
+.hero-section-button:hover,
+.hero-section-button:active {
+background-color: #404BBF;
+}
 /* Features section */
 
 .features-section-title{
     visibility: hidden;
+}
+.features-section-list-item-title{
+letter-spacing: 0.02em;
 }
 
 
@@ -103,6 +112,18 @@ footer{
     height: 380px;
     text-align: center;
     background-color: white;
+}
+.team-section-list-item-title{
+    letter-spacing: 0.02em;
+}
+
+.team-section-list-item-text{
+    font-size: 1rem;
+}
+/*Portfolio section*/
+
+.portfolio-section-list-item-title{
+     letter-spacing: 0.02em;
 }
 
 /* Footer */
