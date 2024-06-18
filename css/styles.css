@@ -85,7 +85,7 @@ footer{
 }
 
 .hero-section-button:hover,
-.hero-section-button:active {
+.hero-section-button:focus {
 background-color: #404BBF;
 }
 /* Features section */
