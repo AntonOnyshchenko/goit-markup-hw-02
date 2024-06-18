@@ -1,23 +1,97 @@
-/* General style */
+/* General styles */
 body{
-    font-size:1rem;
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color:#434455;
     line-height: 1.5;
     letter-spacing: 2%;
-    color:#2E2F42;
+}
+li{
+    list-style:none;
 }
 a{
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
-li{
-    list-style-type: none;
+h2,h3{
+    color:#2E2F42;
 }
+h2{
+    font-size: 2.25rem;
+    font-weight:700;
+    text-align: center;
+
+}
+h3{
+    font-size: 1.25rem;
+    font-weight:500;
+    line-height: 1.2;
+} 
+
 footer{
+    background-color:#2E2F42;
+    color: #F4F4FD;
+}
+/* Header styles */
+
+.site-logo{
+ font-family: "Raleway";   
+ text-transform: uppercase;
+ font-size: 1.125rem;
+ line-height: 1.16;
+ letter-spacing: 3%;
+ font-weight: 700;
+ color:#4D5AE5;
+}
+
+.site-logo-header,.site-menu{
+    color:#2E2F42;
+}
+.site-menu{
+    font-weight:500;
+}
+
+/* Hero section */
+
+.hero-section{
     background-color: #2E2F42;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero-section-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.07;
+}
+.hero-section-button{
+    background-color: #4D5AE5;
+    color: inherit;
+    cursor:pointer;
+}
+.site-menu-item:hover,.site-menu-item:active,.address-list-item:hover,.address-list-item:focus{
+    color: #404BBF;
+}
+/* Features section */
+
+.features-section-title{
+    visibility: hidden;
 }
 
 
-/* Footer section */
-.footer-text{
-    color:#F4F4FD;
+/* Team section */
+.team-section{
+    background-color:#F4F4FD;
+}
+.team-section-list-item {
+    width: 264px;
+    height: 380px;
+    text-align: center;
+    background-color: white;
+}
+
+/* Footer */
+
+.site-logo-footer{
+    color: #F4F4FD;
 }
