@@ -5,7 +5,8 @@ body{
     font-weight: 400;
     color:#434455;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
 }
 li{
     list-style:none;
@@ -13,6 +14,9 @@ li{
 a{
     text-decoration: none;
     color: inherit;
+}
+address{
+    font-style: normal;
 }
 h2,h3{
     color:#2E2F42;
@@ -36,11 +40,11 @@ footer{
 /* Header styles */
 
 .site-logo{
- font-family: "Raleway";   
+ font-family: "Raleway",sans-serif;   
  text-transform: uppercase;
  font-size: 1.125rem;
- line-height: 1.16;
- letter-spacing: 3%;
+ line-height: 1.17;
+ letter-spacing: 0.03em;
  font-weight: 700;
  color:#4D5AE5;
 }
