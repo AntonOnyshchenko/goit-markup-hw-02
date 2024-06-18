@@ -15,9 +15,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
-address{
-    font-style: normal;
-}
+
 h2,h3{
     color:#2E2F42;
 }
@@ -25,7 +23,6 @@ h2{
     font-size: 2.25rem;
     font-weight:700;
     text-align: center;
-
 }
 h3{
     font-size: 1.25rem;
@@ -56,6 +53,10 @@ footer{
     font-weight:500;
 }
 
+.site-address-contacts{
+    font-style: normal;
+    
+}
 /* Hero section */
 
 .hero-section{
@@ -69,11 +70,16 @@ footer{
     line-height: 1.07;
 }
 .hero-section-button{
+    font-family:"Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: inherit;
     cursor:pointer;
 }
-.site-menu-item:hover,.site-menu-item:active,.address-list-item:hover,.address-list-item:focus{
+.site-menu-item:hover,.site-menu-item:active,.site-menu-item:focus,.address-list-item:hover,.address-list-item:focus,.hero-section-button:hover,.hero-section-button:active{
     color: #404BBF;
 }
 /* Features section */
@@ -87,6 +93,11 @@ footer{
 .team-section{
     background-color:#F4F4FD;
 }
+.team-section-title,.portfolio-section-title{
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
 .team-section-list-item {
     width: 264px;
     height: 380px;
@@ -95,6 +106,10 @@ footer{
 }
 
 /* Footer */
+.site-main-footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
 
 .site-logo-footer{
     color: #F4F4FD;
