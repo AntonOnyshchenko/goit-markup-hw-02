@@ -7,6 +7,10 @@ ul,ol,li{
     list-style:none ;
 }
 
+address{
+    font-style: normal;
+}
+
 /* General styles */
 
 :root {
@@ -104,6 +108,7 @@ body{
     font-size:3.5em;
     line-height: 1.07;
     color:var(--white-background);
+    letter-spacing: 0.02em;
 }
 
 .hero-button{
@@ -123,6 +128,10 @@ body{
 
 .our-team{
     background-color: var(--light-color);
+}
+
+.team-list-item{
+background-color:var(--white-background);
 }
 
 /* Footer section style */
